@@ -1,9 +1,8 @@
 package routes
 
 import (
-	"github.com/xiboquinha/curdgo/controller"
-
 	"github.com/gin-gonic/gin"
+	"github.com/xiboquinha/curdgo/src/controller"
 )
 
 func InitRoutes(r *gin.RouterGroup) {
